@@ -3,8 +3,8 @@ This simulation is to parctice the procedure for building a package on PyPi.
 
 # MLCM creates a 2D Multi-Label Confusion Matrix
 Please read the following paper for more information:
-M. Heydarian, T. Doyle, and R. Samavi, MLCM: Multi-Label Confusion Matrix, IEEE Access, 2022\
-\
+M. Heydarian, T. Doyle, and R. Samavi, MLCM: Multi-Label Confusion Matrix, IEEE Access, 2022
+
 # An example on how to use MLCM packae:
 import numpy as np\
 import sklearn.metrics as skm\
