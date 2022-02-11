@@ -10,7 +10,7 @@ import numpy as np\
 import sklearn.metrics as skm\
 from mlcm import mlcm
 
-# creating "random true" and "random predicted" labels (multi-label)
+# Creating "random true" and "random predicted" labels (multi-label)
 number_of_samples = 1000\
 number_of_classes = 5\
 label_true = np.random.randint(2, size=(number_of_samples, number_of_classes))\
@@ -22,7 +22,4 @@ print(conf_mat)\
 print('\nNormalized confusion Matrix (%):')\
 print(normal_conf_mat)
 
-# Scores using 'MLCM'
-one_vs_rest = mlcm.stats(conf_mat)\
-# not printing one-vs-rest matrices\
-one_vs_rest = mlcm.stats(conf_mat, False)
+one_vs_rest = mlcm.stats(conf_mat)
